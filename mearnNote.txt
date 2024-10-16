@@ -1,0 +1,153 @@
+  --------------------------------------------------------------------      
+                                         MERAN STACK
+ --------------------------------------------------------------------
+
+
+        ------------------------------------------------------------------------------
+                                             HTML
+        ------------------------------------------------------------------------------
+
+        1. markup language: Rules used to define a document should contain
+        2. HTML- Hyper text markup language : used to display contents in webpage
+        3. HTML elements : collection of tags
+        4. HTML Document: collection of html elements
+            - HTML element:  <starting tag> Content </closing tag>
+        5. BASIc structure:
+                    <html>
+                        <head>
+                            <title>content</title>
+                        </head>
+                        <body>
+                            contents
+                        </body>
+                    </html>
+        6. Latest vesion: HTML 5
+        7. Basic Tags:
+                - Heading Tag: h1- h6
+                - Paragraph : p tag
+                - Bold: b tag
+                - Italics :em tag
+                - Highlight : mark tag
+                - Strike : s tag
+                - superlative : sup tag
+                - subscript : sub tag
+                - Line break : br tag
+                - Horizontal line: hr tag
+                - Links: a tag
+                - Ordered list : ol tag , li tag
+                - Unordered List : ul tag , li tag
+                - Description List : dl tag, dt tag, dd tag
+                - Table: table tag, thead , tbody, tr, td, th
+                - Images : img tag
+                - video: video tag
+                - Embed: iframe tag
+                - Container tags: 
+                    - div tag
+                    - section tag
+                    - article tag
+                - Form tags
+                    - form tag
+                    - label
+                    - input- text,password, email, number, date, radio, checkbox,range, button, file
+                    - select- option
+                    - textarea
+                    - button
+
+        8. Based on display value of tags in browser, we can classify tags as,
+                - Block elements: It takes the entire width of the browser to display content in browser
+                    eg: heading tag, p tag
+                - Inline elements: It takes only the width of the content
+                    eg: a tag, img tag
+        9. Semantic tags: describes the meaning to both the browser and user\
+            - header tag
+            - nav tag
+            - section tag
+            - article tag
+            - aside tag
+            - footer tag
+
+
+        ------------------------------------------------------------------------------
+                          CSS -Cascading style
+        ------------------------------------------------------------------------------
+
+        1. Used to give sytle to HTML elements
+        2. Ways to apply css in html Elements:
+            - Inline css:  use style attribute
+                syntax: style="property:value";
+            - Internal CSS:  use style tag
+                syntax:
+                         <style>
+                            selectors{
+                                property:value;
+                            }
+                        </style>
+            -External CSS: uses a external CSS file , we have to link the html file with corresponding CSS file
+                syntax: selectors{
+                                property:value;
+                            }
+        3. CSS selectors: used to select html elements in css file
+            - use Tag name
+            - use id - #
+            - use class - .
+            - use universal selector - *
+            - Grouping selectors
+                - grouping selectors: comma
+                - Descendant selectors: space
+                - child selector: using >
+                - sibling selector: using ~
+                - immediate sibling selector : +
+        4. Box model: padding
+                      border
+                      margin
+        5. CSS properties
+                - Float : float elemets in left or right
+                - position: 
+                        - static
+                        - fixed
+                        - absolute
+                        - relative
+                        - sticky
+                    -z-index
+                -Flexbox: used to display/ arrangemhtml elemts in either row/column
+                - flex Container: parent tag which hold elements that to be arranged as row/column, apply flex to parent
+                - Justify-content
+                -align-items
+
+                - Pseudo class: A pseudo-class is used to define a special state of an element.
+
+                            For example, it can be used to:
+
+                            Style an element when a user mouses over it
+                            Style visited and unvisited links differently
+                            Style an element when it gets focus
+
+                    syntax: selector:pseudo-class {
+                                property: value;
+                                }
+                - grid : used to display elements in row and columns, where user can fix column width
+                    - Grid container:display as a grid
+                        - grid-template-columns / row : used to set the width of column/row
+                        - gap: used to set space between row and columns
+                    - grid items
+                - linear gradient: is used to set combination of colors as background
+                     - syntax: background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+                - Animation in css: animation property, to define @keyframes
+                - Animation libraries:
+                    - Animate.style:  https://animate.style/
+                    - AOS:  https://michalsnik.github.io/aos/
+                    - locomotive scroll: 
+                - Web hosting:
+                    - netlify
+                    - github pages
+                    - Vercel
+                
+  ------------------------------------------------------------------------------
+                     GIT and GITHUB
+  ------------------------------------------------------------------------------
+
+  1. Git : used to control the version of a code
+  2. git commands:
+            - git status:  used to check git status inside a folder
+            - git init: used to create/ initalize git repository in a folder
+            - git add .: track untracked files to git
